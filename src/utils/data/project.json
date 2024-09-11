@@ -1,0 +1,49 @@
+[
+  {
+    "project_name": "Archive",
+    "project_description": "웹 블로그 개발 프로젝트",
+    "project_duration": "2024.07 - 2024.08 (2개월)",
+    "project_composition": "백엔드 및 서버 개발자 1명, 프론트엔드 개발자 1명",
+    "project_url": "https://blog-ian.com",
+    "github_url": "https://github.com/Dong-Ian/front",
+    "skills": ["HTML", "CSS", "JavaScript", "React"],
+    "main_tasks": [
+      "- React를 활용하여 개인 블로그 개발 프로젝트의 프론트엔드 전반을 담당",
+      "- ReactQuill 라이브러리를 이용한 포스팅 페이지 제작 및 글 작성 기능 구현",
+      "- 서버로부터 데이터를 받아 동적 URL 라우팅을 적용하여 페이지 구성",
+      "- Utterances 라이브러리를 활용한 댓글 기능 구현",
+      "- 사용자 경험을 고려한 회원가입 및 로그인 UI/UX 설계",
+      "- JWT를 활용한 사용자 인증 상태 관리 및 보호된 페이지 접근 제어 기능 구현",
+      "- REST API를 활용하여 사용자 관리, 포스팅 기능 등의 서버 통신 및 에러 핸들링 처리"
+    ]
+  },
+  {
+    "project_name": "Petfinity",
+    "project_description": "반려동물 AI 건강 진단 애플리케이션",
+    "project_duration": "2024.03 - 2024.06 (4개월)",
+    "project_composition": "백엔드 개발자 2명, 프론트엔드 개발자 1명, AI 개발자 1명",
+    "github_url": "https://github.com/Capstone-Petfinity/front-ian",
+    "skills": ["HTML", "CSS", "JavaScript", "ReactNative", "Figma"],
+    "main_tasks": [
+      "- 디바이스 카메라, 갤러리를 통한 사진 및 정보 전송 기능 구현",
+      "- Figma를 활용한 UI/UX 디자인 및 프론트엔드 개발 전담",
+      "- 백엔드 서버와 AI 서버 관리 및 도메인 연결 담당",
+      "- REST API를 이용한 서버와의 데이터 통신 및 에러 처리"
+    ]
+  },
+  {
+    "project_name": "Antiheimer",
+    "project_description": "AI 치매 진단 애플리케이션",
+    "project_duration": "2024.08 - 2024.10 (3개월)",
+    "project_composition": "백엔드 개발자 2명, 프론트엔드 개발자 1명, AI 개발자 1명",
+    "github_url": "https://github.com/AntiHeimer/front-RN",
+    "skills": ["HTML", "CSS", "JavaScript", "ReactNative", "Figma"],
+    "main_tasks": [
+      "- Apple HealthKit 데이터를 가져와 그래프로 시각화하는 기능 구현",
+      "- 현재 위치를 디바이스에서 불러와 지도에 표시하는 기능 개발",
+      "- Figma를 활용한 UI/UX 디자인 및 프론트엔드 개발 전담",
+      "- JWT를 활용한 사용자 인증 관리 및 보안 강화",
+      "- REST API를 이용한 서버와의 데이터 통신 및 에러 처리"
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+.cover {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+
+  > p {
+    color: white;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+}
+
+.profile {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
