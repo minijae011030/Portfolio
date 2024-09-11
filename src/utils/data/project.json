@@ -15,6 +15,33 @@
       "- 사용자 경험을 고려한 회원가입 및 로그인 UI/UX 설계",
       "- JWT를 활용한 사용자 인증 상태 관리 및 보호된 페이지 접근 제어 기능 구현",
       "- REST API를 활용하여 사용자 관리, 포스팅 기능 등의 서버 통신 및 에러 핸들링 처리"
+    ],
+    "project_image": [
+      {
+        "name": "main",
+        "description": "블로그 메인 화면",
+        "url": "archive_Main.png?alt=media&token=b3c91175-7845-41dd-8a30-71450706968c"
+      },
+      {
+        "name": "post",
+        "description": "포스트 화면",
+        "url": "archive_Contents.png?alt=media&token=27d51995-0efe-4fce-8334-5c5bf486c0a0"
+      },
+      {
+        "name": "category post list",
+        "description": "카테고리 별 포스트 목록",
+        "url": "archive_CategoryPostList.png?alt=media&token=10f6062f-78c2-4f8e-a1f1-ddabae4502e1"
+      },
+      {
+        "name": "comments",
+        "description": "댓글",
+        "url": "archive_Comments.png?alt=media&token=9025f64b-bd9e-4b6f-8b9b-63aad88afeb2"
+      },
+      {
+        "name": "posting",
+        "description": "포스팅 화면",
+        "url": "archive_Posting.png?alt=media&token=6230f402-a5e7-4d54-990b-befba09105d4"
+      }
     ]
   },
   {
@@ -29,6 +56,48 @@
       "- Figma를 활용한 UI/UX 디자인 및 프론트엔드 개발 전담",
       "- 백엔드 서버와 AI 서버 관리 및 도메인 연결 담당",
       "- REST API를 이용한 서버와의 데이터 통신 및 에러 처리"
+    ],
+    "project_image": [
+      {
+        "name": "login",
+        "description": "로그인",
+        "url": "petfinity_Login.png?alt=media&token=e878e103-5160-433d-952a-c871b71ff99b"
+      },
+      {
+        "name": "logout",
+        "description": "로그아웃",
+        "url": "petfinity_Logout.png?alt=media&token=f86e09a9-8ad2-46aa-b2a0-9380770e0f38"
+      },
+      {
+        "name": "signup",
+        "description": "회원가입",
+        "url": "petfinity_SingUp.png?alt=media&token=7db72aaa-a0cf-4790-bbbb-d4923efd7eb0"
+      },
+      {
+        "name": "diagnosis",
+        "description": "진단",
+        "url": "petfinity_Diagnosis.png?alt=media&token=733c8122-1513-4635-9ab8-edd6fa82f1a4"
+      },
+      {
+        "name": "reservation1",
+        "description": "예약",
+        "url": "petfinity_Reservation1.png?alt=media&token=31a89d2d-4985-4ec7-8e3b-9267de8283c7"
+      },
+      {
+        "name": "reservation2",
+        "description": "예약2",
+        "url": "petfinity_Reservation2.png?alt=media&token=be484534-702f-4f3e-b0f7-46101cb9ab2c"
+      },
+      {
+        "name": "pet list",
+        "description": "동물 리스트",
+        "url": "petfinity_PetList.png?alt=media&token=2f3928f9-4003-42ab-bf6f-4ae9764bb582"
+      },
+      {
+        "name": "check reservation",
+        "description": "예약 확인",
+        "url": "petfinity_CheckReservation.png?alt=media&token=ceaf97eb-fc5b-4583-9d73-2958104a3dee"
+      }
     ]
   },
   {
@@ -44,6 +113,33 @@
       "- Figma를 활용한 UI/UX 디자인 및 프론트엔드 개발 전담",
       "- JWT를 활용한 사용자 인증 관리 및 보안 강화",
       "- REST API를 이용한 서버와의 데이터 통신 및 에러 처리"
+    ],
+    "project_image": [
+      {
+        "name": "main",
+        "description": "메인",
+        "url": "antiheimer_Main.png?alt=media&token=eed76c57-0e6f-4839-ab0f-bfaac25c6d40"
+      },
+      {
+        "name": "login",
+        "description": "로그인",
+        "url": "antiheimer_Login.png?alt=media&token=d144356f-e1a7-4f63-8171-171933a754fa"
+      },
+      {
+        "name": "signup",
+        "description": "회원가입",
+        "url": "antiheimer_SignUp.png?alt=media&token=91162bec-d31d-48e9-9383-294ce050009e"
+      },
+      {
+        "name": "location",
+        "description": "위치",
+        "url": "antiheimer_Location.png?alt=media&token=1d29e924-a9ff-4800-a0bc-c31591d8e143"
+      },
+      {
+        "name": "notification",
+        "description": "알림",
+        "url": "antiheimer_Notification.png?alt=media&token=b402d57a-45c8-4922-bdd4-8d79ad10128a"
+      }
     ]
   }
 ]
