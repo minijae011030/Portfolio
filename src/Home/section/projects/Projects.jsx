@@ -1,50 +1,10 @@
 import { useState } from "react";
-import styles from "../../styles/Home.module.css";
+import styles from "./styles/projects.module.css";
 
 import data from "../../../utils/data/project.json";
 
-function ImageRender({ project_image, imageIndex }) {
-  return (
-    <div>
-      {project_image.map((project, index) => (
-        <div
-          key={index}
-          className={index === imageIndex ? styles.image : styles.hidden}
-        >
-          <img
-            src={`${process.env.REACT_APP_FIREBASE}/${project.url}`}
-            style={{ width: 300 }}
-            alt={project.name}
-          />
-          <p>{project.name}</p>
-          <p>{project.description}</p>
-        </div>
-      ))}
-    </div>
-  );
-}
-
-function SlideControls({
-  imageIndex,
-  project_image,
-  addImageIndex,
-  subtractImageIndex,
-}) {
-  return (
-    <div className={styles.slide_button}>
-      <button onClick={subtractImageIndex}>{"<"}</button>
-      <div className={styles.dots}>
-        {project_image.map((_, index) => (
-          <div
-            key={index}
-            className={index === imageIndex ? styles.chosen : styles.not_chosen}
-          />
-        ))}
-      </div>
-      <button onClick={addImageIndex}>{">"}</button>
-    </div>
-  );
-}
+import ImageRender from "./component/ImageRender";
+import SlideControls from "./component/SlideControls";
 
 function Project({ project_index, max_length }) {
   const project = data[project_index];

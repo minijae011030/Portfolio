@@ -7,7 +7,6 @@ function Home() {
     <div>
       <Cover />
       <Profile />
-
       <Projects />
     </div>
   );

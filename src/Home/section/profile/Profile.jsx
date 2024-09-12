@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import styles from "../../styles/Home.module.css";
+import styles from "./styles/profile.module.css";
 
 import profile_img from "../../../utils/image/profile_ian.jpg";
 
