@@ -139,6 +139,7 @@
   border: 1px solid black;
   flex: 1;
 }
+
 .hidden {
   display: none;
 }

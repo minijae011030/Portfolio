@@ -1,6 +1,6 @@
-import Cover from "./component/Cover";
-import Profile from "./component/Profile";
-import Projects from "./component/Projects";
+import Cover from "./section/cover/Cover";
+import Profile from "./section/profile/Profile";
+import Projects from "./section/projects/Projects";
 
 function Home() {
   return (

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import styles from "../styles/Home.module.css";
+import styles from "../../styles/Home.module.css";
 
-import data from "../../utils/data/project.json";
+import data from "../../../utils/data/project.json";
 
 function ImageRender({ project_image, imageIndex }) {
   return (
@@ -49,6 +49,8 @@ function SlideControls({
 function Project({ project_index, max_length }) {
   const project = data[project_index];
   const project_image = project.project_image;
+  const project_skill = project.skills;
+  const project_main_task = project.main_tasks;
   const [imageIndex, setImageIndex] = useState(0);
 
   function addImageIndex() {
@@ -82,6 +84,20 @@ function Project({ project_index, max_length }) {
         <p>{project.project_duration}</p>
         <p>{project.project_composition}</p>
         <p>{project.github_url}</p>
+        {project_skill.map((skill, index) => {
+          return (
+            <div key={index}>
+              <p>{skill}</p>
+            </div>
+          );
+        })}
+        {project_main_task.map((task, index) => {
+          return (
+            <div key={index}>
+              <p>{task}</p>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
