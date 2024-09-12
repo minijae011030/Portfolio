@@ -30,8 +30,17 @@
 .project {
   border: 1px solid black;
   margin: 10px 0;
+  display: flex;
 }
 
+.project_image {
+  border: 1px solid black;
+}
+
+.project_description {
+  border: 1px solid black;
+  flex: 1;
+}
 .hidden {
   display: none;
 }
