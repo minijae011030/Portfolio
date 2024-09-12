@@ -1,24 +1,35 @@
+import Slider from "react-slick";
 import styles from "../styles/projects.module.css";
 
-function ImageRender({ project_image, imageIndex }) {
-  return (
-    <div>
-      {project_image.map((project, index) => (
-        <div
-          key={index}
-          className={index === imageIndex ? styles.image : styles.hidden}
-        >
-          <img
-            src={`${process.env.REACT_APP_FIREBASE}/${project.url}`}
-            style={{ width: 300 }}
-            alt={project.name}
-          />
-          <p>{project.name}</p>
-          <p>{project.description}</p>
-        </div>
-      ))}
-    </div>
-  );
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+function ImageRender({ project_image, SlidesToShow }) {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: SlidesToShow,
+    slidesToScroll: SlidesToShow,
+  };
+
+  if (project_image) {
+    return (
+      <Slider {...settings}>
+        {project_image.map((img, index) => {
+          return (
+            <div key={index}>
+              <img
+                src={`${process.env.REACT_APP_FIREBASE}/${img.url}`}
+                className={styles.image}
+                alt={index}
+              />
+            </div>
+          );
+        })}
+      </Slider>
+    );
+  }
 }
 
 export default ImageRender;

@@ -8,7 +8,7 @@ function Profile() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   function handleResize() {
-    setIsSmallScreen(window.innerWidth <= 768);
+    setIsSmallScreen(window.innerWidth <= 770);
   }
 
   useEffect(() => {
