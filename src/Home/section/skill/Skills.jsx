@@ -11,7 +11,13 @@ function Skill({ skill }) {
 
   return (
     <div className={styles.skill}>
-      <p className={styles.skill_name}>{skill.skill}</p>
+      <div className={styles.skill_name}>
+        <img
+          alt="logo"
+          src={`${process.env.REACT_APP_FIREBASE}/${skill.logo}`}
+        />
+        <p>{skill.skill}</p>
+      </div>
       <div className={styles.ability}>
         {ability.map((ab, index) => {
           return <p key={index}>{ab}</p>;

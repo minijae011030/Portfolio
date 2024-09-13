@@ -10,8 +10,10 @@
       "- React Query를 활용하여 데이터 패칭과 캐싱을 효과적으로 관리할 수 있습니다.",
       "- useState, useEffect 등 다양한 React Hooks를 활용할 수 있습니다.",
       "- 동적 라우팅을 통해 유연한 페이지 전환을 구현할 수 있습니다.",
-      "- 화면 크기에 따라 반응형 레이아웃을 구성할 수 있습니다."
-    ]
+      "- 화면 크기에 따라 반응형 레이아웃을 구성할 수 있습니다.",
+      "- 환경변수를 사용하여 민감한 정보를 관리할 수 있습니다."
+    ],
+    "logo": "logo-react.png?alt=media&token=85d5be05-5205-43a6-abe1-88dab9d7da33"
   },
   {
     "skill": "React Native",
@@ -22,8 +24,10 @@
       "- 컴포넌트를 모듈화하여 재사용성을 극대화할 수 있습니다.",
       "- Alert나 AsyncStorage를 모듈화하여 프로젝트에 적용할 수 있습니다.",
       "- useState, useEffect 등 다양한 React Hooks를 활용할 수 있습니다.",
-      "- GPS, 카메라 등 네이티브 장치 기능과의 상호작용을 구현할 수 있습니다."
-    ]
+      "- GPS, 카메라 등 네이티브 장치 기능과의 상호작용을 구현할 수 있습니다.",
+      "- 환경변수를 사용하여 민감한 정보를 관리할 수 있습니다."
+    ],
+    "logo": "logo-react.png?alt=media&token=85d5be05-5205-43a6-abe1-88dab9d7da33"
   },
   {
     "skill": "Figma",
@@ -35,7 +39,8 @@
       "- UI 요소의 간격, 크기, 컬러 등을 Figma에서 확인하고, 이를 CSS로 정확하게 구현할 수 있습니다.",
       "- Figma에서 제공하는 CSS 속성을 사용하여 빠르게 스타일을 적용할 수 있습니다.",
       "- 프로토타입을 테스트하여 사용자 경험을 개선할 수 있습니다."
-    ]
+    ],
+    "logo": "logo-figma.webp?alt=media&token=96eb3d6f-615f-4a47-807b-8c3bae4d6152"
   },
   {
     "skill": "Git",
@@ -43,14 +48,16 @@
       "Git을 사용하여 파일을 추가(add), 커밋(commit), 푸시(push)하는 기본적인 버전 관리 작업을 수행할 수 있습니다.",
       "브랜치를 나누어(branch) 독립적으로 작업하고, 이를 병합(merge)하여 통합할 수 있습니다.",
       "Git을 통해 여러 사람과 하나의 프로젝트에서 효율적으로 협업할 수 있습니다."
-    ]
+    ],
+    "logo": "logo-git.png?alt=media&token=ab2007f5-0b31-4b57-adea-e4411457a4d4"
   },
   {
     "skill": "GitHub",
     "ability": [
       "- 로컬 Git 저장소와 연결된 원격 저장소를 GitHub에 생성하고, 이를 통해 코드 변경 사항을 백업하고 공유할 수 있습니다.",
       "-  여러 개발자들이 같은 프로젝트에서 동시에 작업할 수 있도록 풀 리퀘스트(Pull Request)를 생성하여 코드 리뷰와 피드백을 받을 수 있습니다."
-    ]
+    ],
+    "logo": "logo-github.webp?alt=media&token=fa94dbc8-e0f0-49b0-b2eb-ab10f600dd60"
   },
   {
     "skill": "ubuntu",
@@ -60,13 +67,15 @@
       "- Spring Boot 프로젝트를 Ubuntu 서버에 배포한 경험이 있습니다.",
       "- GitHub에서 코드를 내려받아 실행하고, nohup을 이용해 백그라운드에서 지속적으로 배포할 수 있습니다.",
       "- 서버에서 MySQL을 설치하고 사용할 수 있습니다."
-    ]
+    ],
+    "logo": "logo-ubuntu.png?alt=media&token=12145365-ecd4-477f-b732-9b6da1333963"
   },
   {
     "skill": "Postman",
     "ability": [
       "- Postman을 통해 백엔드 API의 요청과 응답을 테스트할 수 있습니다.",
       "- 워크스페이스를 통해 팀원들과 협업하여 API 개발을 효울적으로 진행할 수 있습니다."
-    ]
+    ],
+    "logo": "logo-postman.svg?alt=media&token=633598e9-902c-4293-bf49-fe92ddacc542"
   }
 ]
