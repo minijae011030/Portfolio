@@ -1,17 +1,8 @@
-import { useEffect } from "react";
-
-import AOS from "aos";
-import "aos/dist/aos.css";
-
 import styles from "./styles/profile.module.css";
 
 import profile_img from "../../../utils/image/profile_ian.jpg";
 
 function Profile() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <div className={styles.profile}>
       <h1 className={styles.title}>ABOUT ME</h1>

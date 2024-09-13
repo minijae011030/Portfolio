@@ -1,8 +1,4 @@
-import { useEffect } from "react";
 import styles from "./styles/skill.module.css";
-
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 import data from "../../../utils/data/skill.json";
 
@@ -28,10 +24,6 @@ function Skill({ skill }) {
 }
 
 function Skills() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <div className={styles.skills}>
       <p className={styles.title}>SKILL</p>

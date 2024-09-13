@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { motion, useScroll } from "framer-motion";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import Cover from "./section/cover/Cover";
 import Profile from "./section/profile/Profile";
 import Projects from "./section/projects/Projects";
@@ -17,6 +20,7 @@ function Home() {
   }
 
   useEffect(() => {
+    AOS.init();
     handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);

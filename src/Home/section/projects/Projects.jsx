@@ -1,8 +1,4 @@
-import { useEffect } from "react";
 import styles from "./styles/projects.module.css";
-
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 import data from "../../../utils/data/project.json";
 import ImageRender from "./component/ImageRender";
@@ -16,7 +12,7 @@ function Project({ project_index, SlidesToShow, isSmallScreen }) {
   const project_solution = project.project_solution;
 
   return (
-    <div className={styles.project}>
+    <div className={styles.project} data-aos="fade-up" data-aos-duration="500">
       <div className={styles.project_image_box}>
         <ImageRender
           project_image={project_image}
@@ -98,35 +94,27 @@ function Project({ project_index, SlidesToShow, isSmallScreen }) {
 }
 
 function Projects({ isSmallScreen }) {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <div className={styles.projects}>
       <p className={styles.title}>PROJECT</p>
 
-      <div data-aos="fade-up" data-aos-offset="230" data-aos-duration="500">
-        <Project
-          project_index={0}
-          SlidesToShow={1}
-          isSmallScreen={isSmallScreen}
-        />
-      </div>
-      <div data-aos="fade-up" data-aos-offset="230" data-aos-duration="500">
-        <Project
-          project_index={1}
-          SlidesToShow={3}
-          isSmallScreen={isSmallScreen}
-        />
-      </div>
-      <div data-aos="fade-up" data-aos-offset="230" data-aos-duration="500">
-        <Project
-          project_index={2}
-          SlidesToShow={3}
-          isSmallScreen={isSmallScreen}
-        />
-      </div>
+      <Project
+        project_index={0}
+        SlidesToShow={1}
+        isSmallScreen={isSmallScreen}
+      />
+
+      <Project
+        project_index={1}
+        SlidesToShow={3}
+        isSmallScreen={isSmallScreen}
+      />
+
+      <Project
+        project_index={2}
+        SlidesToShow={3}
+        isSmallScreen={isSmallScreen}
+      />
     </div>
   );
 }
