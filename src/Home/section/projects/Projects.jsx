@@ -48,7 +48,13 @@ function Project({ project_index, SlidesToShow, isSmallScreen }) {
             })}
           </div>
         </div>
-        <div className={styles.right_description}>
+        <div
+          className={
+            isSmallScreen
+              ? styles.small_screen_right_description
+              : styles.right_description
+          }
+        >
           {project_main_task.map((task, index) => {
             return (
               <div className={styles.project_main_task} key={index}>
