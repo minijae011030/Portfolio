@@ -4,7 +4,6 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  /* margin: 40px 0 0 0; */
 
   > .title {
     font-size: 30px;
@@ -71,12 +70,16 @@
     margin-bottom: 10px;
   }
 
-  .github_url {
-    color: white;
-    font-size: 14px;
-    margin-bottom: 14px;
-    font-weight: 200;
-    text-underline-position: under;
+  .project_url {
+    display: flex;
+    gap: 10px;
+    > a {
+      color: white;
+      font-size: 14px;
+      margin-bottom: 14px;
+      font-weight: 200;
+      text-underline-position: under;
+    }
   }
 
   .skills {

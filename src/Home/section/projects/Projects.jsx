@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import styles from "./styles/projects.module.css";
 
 import AOS from "aos";
@@ -5,7 +6,6 @@ import "aos/dist/aos.css";
 
 import data from "../../../utils/data/project.json";
 import ImageRender from "./component/ImageRender";
-import { useEffect } from "react";
 
 function Project({ project_index, SlidesToShow, isSmallScreen }) {
   const project = data[project_index];
@@ -38,9 +38,12 @@ function Project({ project_index, SlidesToShow, isSmallScreen }) {
           <p className={styles.project_composition}>
             {project.project_composition}
           </p>
-          <a href={project.github_url} className={styles.github_url}>
-            GitHub 링크
-          </a>
+          <div className={styles.project_url}>
+            {project.project_url && (
+              <a href={project.project_url}>프로젝트 링크</a>
+            )}
+            <a href={project.github_url}>GitHub 링크</a>
+          </div>
           <div className={styles.skills}>
             {project_skill.map((skill, index) => {
               return (
