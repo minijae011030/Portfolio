@@ -78,7 +78,7 @@
     font-size: 13px;
     margin: 0 auto;
     width: 50%;
-    border: 0.1px solid black;
+    border: 0.1px solid white;
     padding: 12px 0;
     border-radius: 10px;
     color: black;
@@ -94,10 +94,10 @@
   gap: 30px;
 
   > a {
-    border: 0.1px solid black;
+    border: 0.1px solid white;
     padding: 15px 0;
     border-radius: 10px;
-    color: black;
+    color: white;
     text-decoration-line: none;
     font-weight: 300;
   }

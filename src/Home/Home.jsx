@@ -18,7 +18,7 @@ function Home() {
   }, []);
 
   return (
-    <div>
+    <div style={{ backgroundColor: "black" }}>
       <Cover />
       <Profile isSmallScreen={isSmallScreen} />
       <Projects isSmallScreen={isSmallScreen} />
