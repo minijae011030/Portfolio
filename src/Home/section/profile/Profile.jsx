@@ -1,8 +1,16 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import styles from "./styles/profile.module.css";
 
 import profile_img from "../../../utils/image/profile_ian.jpg";
+import { useEffect } from "react";
 
 function Profile({ isSmallScreen }) {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className={styles.profile}>
       <h1 className={styles.title}>ABOUT ME</h1>
@@ -12,6 +20,9 @@ function Profile({ isSmallScreen }) {
             ? styles.small_screen_outer_info
             : styles.big_screen_outer_info
         }
+        data-aos="fade-up"
+        data-aos-offset="230"
+        data-aos-duration="500"
       >
         <div
           className={
