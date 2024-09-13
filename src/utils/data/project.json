@@ -2,7 +2,7 @@
   {
     "project_name": "Archive",
     "project_description": "웹 블로그 개발 프로젝트",
-    "project_duration": "2024.07 2024.08 (2개월)",
+    "project_duration": "2024.07 - 2024.08 (2개월)",
     "project_composition": "백엔드 및 서버 개발자 1명, 프론트엔드 개발자 1명",
     "project_url": "https://blog.minjae-dev.com",
     "github_url": "https://github.com/Dong-Ian/front",
@@ -14,7 +14,8 @@
       "Utterances 라이브러리를 활용한 댓글 기능 구현",
       "JWT를 활용한 사용자 인증 상태 관리 및 보호된 페이지 접근 제어 기능 구현",
       "REST API를 활용하여 사용자 관리, 포스팅 기능 등의 서버 통신 및 에러 핸들링 처리",
-      "화면 크기에 따른 반응형 화면 구성"
+      "화면 크기에 따른 반응형 화면 구성",
+      "react-helmet 라이브러리를 이용해 페이지 마다 다른 페이지 제목을 적용"
     ],
     "project_image": [
       "archive-main.png?alt=media&token=804b5128-c55a-4950-a7be-fabbdc3da784",
@@ -22,12 +23,19 @@
       "archive-postlist.png?alt=media&token=229bf010-7d5b-4482-879a-44118192218c",
       "archive-comment.png?alt=media&token=ea4bf6d2-82c8-4192-9aa0-ae41bb8af9d7",
       "archive-posting.png?alt=media&token=532db54b-a943-488f-b4aa-f09c05e3e240"
+    ],
+    "project_contribution": "프론트엔드 개발 전담",
+
+    "project_problem": "댓글 기능 구현 시, 무분별한 댓글 작성과 회원가입의 번거로움 사이에서 고민이 많았습니다.",
+    "project_solution": [
+      "무분별한 댓글 작성을 방지하고 회원가입의 부담을 줄이기 위해 GitHub 계정으로 댓글을 작성할 수 있는 라이브러리를 사용하여 문제를 해결했습니다.",
+      "동적 라우팅을 사용하여 서버에서 받아온 포스트 번호를 url 파라미터로 적용하여 GitHub 이슈 제목과 매핑되게 하였습니다."
     ]
   },
   {
     "project_name": "Petfinity",
     "project_description": "반려동물 AI 건강 진단 애플리케이션",
-    "project_duration": "2024.03 2024.06 (4개월)",
+    "project_duration": "2024.03 - 2024.06 (4개월)",
     "project_composition": "백엔드 개발자 2명, 프론트엔드 개발자 1명, AI 개발자 1명",
     "github_url": "https://github.com/Capstone-Petfinity/front-ian",
     "skills": ["HTML", "CSS", "JavaScript", "ReactNative", "Figma"],
@@ -46,12 +54,18 @@
       "petfinity_Reservation2.png?alt=media&token=be484534-702f-4f3e-b0f7-46101cb9ab2c",
       "petfinity_PetList.png?alt=media&token=2f3928f9-4003-42ab-bf6f-4ae9764bb582",
       "petfinity_CheckReservation.png?alt=media&token=ceaf97eb-fc5b-4583-9d73-2958104a3dee"
+    ],
+    "project_contribution": "프론트엔드 개발 전담, 서버 관리",
+    "project_problem": "React Native를 처음 사용하여 개발에 어려움이 있었습니다.",
+    "project_solution": [
+      "Figma를 통해 필요한 화면을 먼저 설계하고, 이를 바탕으로 컴포넌트를 나눠서 단계적으로 개발했습니다.",
+      "반려동물 보호자와 수의사 두 개의 버전이 필요했기에, 처음부터 디렉토리를 나눠 개발을 진행하였습니다."
     ]
   },
   {
     "project_name": "Antiheimer",
     "project_description": "AI 치매 진단 애플리케이션",
-    "project_duration": "2024.08 2024.10 (3개월)",
+    "project_duration": "2024.08 - 2024.10 (3개월)",
     "project_composition": "백엔드 개발자 2명, 프론트엔드 개발자 1명, AI 개발자 1명",
     "github_url": "https://github.com/AntiHeimer/front-RN",
     "skills": ["HTML", "CSS", "JavaScript", "ReactNative", "Figma"],
@@ -68,6 +82,14 @@
       "antiheimer_SignUp.png?alt=media&token=91162bec-d31d-48e9-9383-294ce050009e",
       "antiheimer_Location.png?alt=media&token=1d29e924-a9ff-4800-a0bc-c31591d8e143",
       "antiheimer_Notification.png?alt=media&token=b402d57a-45c8-4922-bdd4-8d79ad10128a"
+    ],
+    "project_contribution": "프론트엔드 개발 전담",
+
+    "project_problem": "Alert, Button, AsyncStorage, 암호화 함수 등 자주 사용되는 컴포넌트와 함수를 모듈화하지 않아 코드가 난잡해지고, 가독성이 떨어지는 문제가 발생하였습니다.",
+    "project_solution": [
+      "Utils 폴더를 생성하여 자주 사용하는 컴포넌트와 함수들을 전역적으로 모듈화했습니다.",
+      "예를 들어, 'Storage' 모듈을 설계하여 AsyncStorage의 데이터를 저장, 조회, 삭제 및 전체 삭제 작업을 통합적으로 관리되게 하였습니다.",
+      "이 모듈을 설계할 떄 JSON 변환과 오류 처리를 내장하여 코드의 일관성을 유지하고 재사용성을 높였습니다."
     ]
   }
 ]
