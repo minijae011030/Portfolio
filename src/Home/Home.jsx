@@ -5,6 +5,7 @@ import Cover from "./section/cover/Cover";
 import Profile from "./section/profile/Profile";
 import Projects from "./section/projects/Projects";
 import Skills from "./section/skill/Skills";
+import Footer from "./section/footer/Footer";
 
 function Home() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -41,6 +42,7 @@ function Home() {
       <Profile isSmallScreen={isSmallScreen} />
       <Skills isSmallScreen={isSmallScreen} />
       <Projects isSmallScreen={isSmallScreen} />
+      <Footer />
     </>
   );
 }
