@@ -51,7 +51,7 @@ function Project({ project_index, SlidesToShow, isSmallScreen }) {
         <div className={styles.right_description}>
           {project_main_task.map((task, index) => {
             return (
-              <div key={index}>
+              <div className={styles.project_main_task} key={index}>
                 <p>{task}</p>
               </div>
             );

@@ -98,4 +98,13 @@
 .right_description {
   text-align: left;
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  .project_main_task {
+    font-size: 14.5px;
+    font-weight: 300;
+    line-height: 20px;
+  }
 }
