@@ -20,27 +20,27 @@
       {
         "name": "main",
         "description": "블로그 메인 화면",
-        "url": "archive_Main.png?alt=media&token=b3c91175-7845-41dd-8a30-71450706968c"
+        "url": "archive-main.png?alt=media&token=804b5128-c55a-4950-a7be-fabbdc3da784"
       },
       {
         "name": "post",
         "description": "포스트 화면",
-        "url": "archive_Contents.png?alt=media&token=27d51995-0efe-4fce-8334-5c5bf486c0a0"
+        "url": "archive-post.png?alt=media&token=3270da1b-1212-40c1-ae32-ac29530fbd85"
       },
       {
         "name": "category post list",
         "description": "카테고리 별 포스트 목록",
-        "url": "archive_CategoryPostList.png?alt=media&token=10f6062f-78c2-4f8e-a1f1-ddabae4502e1"
+        "url": "archive-postlist.png?alt=media&token=229bf010-7d5b-4482-879a-44118192218c"
       },
       {
         "name": "comments",
         "description": "댓글",
-        "url": "archive_Comments.png?alt=media&token=9025f64b-bd9e-4b6f-8b9b-63aad88afeb2"
+        "url": "archive-comment.png?alt=media&token=ea4bf6d2-82c8-4192-9aa0-ae41bb8af9d7"
       },
       {
         "name": "posting",
         "description": "포스팅 화면",
-        "url": "archive_Posting.png?alt=media&token=6230f402-a5e7-4d54-990b-befba09105d4"
+        "url": "archive-posting.png?alt=media&token=532db54b-a943-488f-b4aa-f09c05e3e240"
       }
     ]
   },
