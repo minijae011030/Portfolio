@@ -11,6 +11,8 @@ function ImageRender({ project_image, SlidesToShow }) {
     speed: 500,
     slidesToShow: SlidesToShow,
     slidesToScroll: SlidesToShow,
+    autoplay: true,
+    autoplaySpeed: 7000,
   };
 
   if (project_image) {
