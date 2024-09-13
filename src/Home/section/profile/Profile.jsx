@@ -17,9 +17,10 @@ function Profile({ isSmallScreen }) {
       <h1 className={styles.title}>ABOUT ME</h1>
       <div
         className={
-          isSmallScreen
-            ? styles.small_screen_outer_info
-            : styles.big_screen_outer_info
+          // isSmallScreen
+          //   ?
+          styles.small_screen_outer_info
+          // : styles.big_screen_outer_info
         }
         data-aos="fade-up"
         data-aos-offset="230"
@@ -27,7 +28,9 @@ function Profile({ isSmallScreen }) {
       >
         <div
           className={
-            isSmallScreen ? styles.small_screen_info : styles.big_screen_info
+            // isSmallScreen ?
+            styles.small_screen_info
+            // : styles.big_screen_info
           }
         >
           <div className={styles.profile_img_wrap}>
@@ -44,7 +47,9 @@ function Profile({ isSmallScreen }) {
         </div>
         <div
           className={
-            isSmallScreen ? styles.small_screen_link : styles.big_screen_link
+            // isSmallScreen ?
+            styles.small_screen_link
+            // : styles.big_screen_link
           }
         >
           <a href={process.env.REACT_APP_BLOG}>BLOG</a>
