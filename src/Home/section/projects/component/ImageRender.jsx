@@ -22,7 +22,7 @@ function ImageRender({ project_image, SlidesToShow }) {
           return (
             <div key={index}>
               <img
-                src={`${process.env.REACT_APP_FIREBASE}/${img.url}`}
+                src={`${process.env.REACT_APP_FIREBASE}/${img}`}
                 className={styles.image}
                 alt={index}
               />
