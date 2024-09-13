@@ -20,25 +20,37 @@ function Project({ project_index, SlidesToShow }) {
         />
       </div>
       <div className={styles.project_description}>
-        <p>{project.project_name}</p>
-        <p>{project.project_description}</p>
-        <p>{project.project_duration}</p>
-        <p>{project.project_composition}</p>
-        <p>{project.github_url}</p>
-        {project_skill.map((skill, index) => {
-          return (
-            <div key={index}>
-              <p>{skill}</p>
-            </div>
-          );
-        })}
-        {project_main_task.map((task, index) => {
-          return (
-            <div key={index}>
-              <p>{task}</p>
-            </div>
-          );
-        })}
+        <div className={styles.left_description}>
+          <p className={styles.project_name}>{project.project_name}</p>
+          <p className={styles.project_simple_description}>
+            {project.project_description}
+          </p>
+          <p className={styles.project_duration}>{project.project_duration}</p>
+          <p className={styles.project_composition}>
+            {project.project_composition}
+          </p>
+          <a href={project.github_url} className={styles.github_url}>
+            GitHub 링크
+          </a>
+          <div className={styles.skills}>
+            {project_skill.map((skill, index) => {
+              return (
+                <div key={index}>
+                  <p>{skill}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+        <div className={styles.right_description}>
+          {project_main_task.map((task, index) => {
+            return (
+              <div key={index}>
+                <p>{task}</p>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
@@ -47,7 +59,7 @@ function Project({ project_index, SlidesToShow }) {
 function Projects() {
   return (
     <div className={styles.projects}>
-      <p>projects</p>
+      <p className={styles.title}>PROJECT</p>
       <Project project_index={0} SlidesToShow={1} />
       <Project project_index={1} SlidesToShow={3} />
       <Project project_index={2} SlidesToShow={3} />
