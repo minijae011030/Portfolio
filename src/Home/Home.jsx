@@ -4,6 +4,7 @@ import { motion, useScroll } from "framer-motion";
 import Cover from "./section/cover/Cover";
 import Profile from "./section/profile/Profile";
 import Projects from "./section/projects/Projects";
+import Skill from "./section/skill/Skill";
 
 function Home() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -38,6 +39,7 @@ function Home() {
 
       <Cover />
       <Profile isSmallScreen={isSmallScreen} />
+      <Skill isSmallScreen={isSmallScreen} />
       <Projects isSmallScreen={isSmallScreen} />
     </>
   );
