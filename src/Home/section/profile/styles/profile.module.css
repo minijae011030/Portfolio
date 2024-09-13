@@ -91,6 +91,13 @@
     color: white;
     font-weight: bolder;
     text-decoration-line: none;
+    transition: ease 0.5s;
+  }
+
+  > a:hover {
+    background-color: white;
+    color: black;
+    transition: ease 0.5s;
   }
 }
 
@@ -108,5 +115,12 @@
     color: white;
     text-decoration-line: none;
     font-weight: bolder;
+    transition: ease 0.5s;
+  }
+
+  > a:hover {
+    background-color: white;
+    color: black;
+    transition: ease 0.5s;
   }
 }
