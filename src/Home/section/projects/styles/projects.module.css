@@ -89,15 +89,18 @@
     margin-left: -3px;
 
     > div {
-      border: 0.1px solid white;
+      border: 0.1px solid rgb(29, 28, 28);
+      background-color: rgb(29, 28, 28);
       padding: 10px 13px;
-      border-radius: 50px;
+      border-radius: 10px;
       font-size: 13px;
       margin-bottom: 3px;
 
       > p {
         margin: 0 0 2px 0;
-        font-weight: lighter;
+        /* font-weight: lighter; */
+        background-color: rgb(29, 28, 28);
+        color: white;
       }
     }
   }
