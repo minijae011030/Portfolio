@@ -1,9 +1,17 @@
+import React from "react";
+import { ParallaxText } from "./ParallaxText";
 import styles from "./styles/cover.module.css";
 
 function Cover() {
   return (
     <div className={styles.cover}>
-      <p>강민재 포트폴리오~</p>
+      <div className={styles.parallaxWrapper}>
+        <ParallaxText baseVelocity={-3}>FRONTEND DEV</ParallaxText>
+      </div>
+
+      <div className={styles.parallaxWrapper}>
+        <ParallaxText baseVelocity={3}>KANG MINJAE</ParallaxText>
+      </div>
     </div>
   );
 }
