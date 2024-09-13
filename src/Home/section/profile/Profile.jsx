@@ -18,8 +18,10 @@ function Profile({ isSmallScreen }) {
             isSmallScreen ? styles.small_screen_info : styles.big_screen_info
           }
         >
-          <div className={styles.profile_img}>
-            <img src={profile_img} alt="profile_img" />
+          <div className={styles.profile_img_wrap}>
+            <div className={styles.profile_img}>
+              <img src={profile_img} alt="profile_img" />
+            </div>
           </div>
           <div className={styles.text}>
             <p className={styles.name}>강민재</p>

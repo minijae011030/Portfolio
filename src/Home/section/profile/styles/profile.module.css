@@ -32,9 +32,14 @@
   flex-direction: column;
   justify-content: center;
 }
-
-.profile_img {
+.profile_img_wrap {
+  border: 1px solid white;
+  border-radius: 100%;
+  display: flex;
+  padding: 10px;
   margin: 0 auto 30px auto;
+}
+.profile_img {
   overflow: hidden;
   border-radius: 100%;
   width: 170px;
