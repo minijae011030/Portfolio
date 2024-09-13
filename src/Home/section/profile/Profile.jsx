@@ -1,22 +1,8 @@
-import { useEffect, useState } from "react";
-
 import styles from "./styles/profile.module.css";
 
 import profile_img from "../../../utils/image/profile_ian.jpg";
 
-function Profile() {
-  const [isSmallScreen, setIsSmallScreen] = useState(false);
-
-  function handleResize() {
-    setIsSmallScreen(window.innerWidth <= 770);
-  }
-
-  useEffect(() => {
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
+function Profile({ isSmallScreen }) {
   return (
     <div className={styles.profile}>
       <h1 className={styles.title}>ABOUT ME</h1>

@@ -4,7 +4,7 @@ import data from "../../../utils/data/project.json";
 
 import ImageRender from "./component/ImageRender";
 
-function Project({ project_index, SlidesToShow }) {
+function Project({ project_index, SlidesToShow, isSmallScreen }) {
   const project = data[project_index];
 
   const project_image = project.project_image;
@@ -19,7 +19,13 @@ function Project({ project_index, SlidesToShow }) {
           SlidesToShow={SlidesToShow}
         />
       </div>
-      <div className={styles.project_description}>
+      <div
+        className={
+          isSmallScreen
+            ? styles.small_screen_project_description
+            : styles.project_description
+        }
+      >
         <div className={styles.left_description}>
           <p className={styles.project_name}>{project.project_name}</p>
           <p className={styles.project_simple_description}>
@@ -56,13 +62,25 @@ function Project({ project_index, SlidesToShow }) {
   );
 }
 
-function Projects() {
+function Projects({ isSmallScreen }) {
   return (
     <div className={styles.projects}>
       <p className={styles.title}>PROJECT</p>
-      <Project project_index={0} SlidesToShow={1} />
-      <Project project_index={1} SlidesToShow={3} />
-      <Project project_index={2} SlidesToShow={3} />
+      <Project
+        project_index={0}
+        SlidesToShow={1}
+        isSmallScreen={isSmallScreen}
+      />
+      <Project
+        project_index={1}
+        SlidesToShow={3}
+        isSmallScreen={isSmallScreen}
+      />
+      <Project
+        project_index={2}
+        SlidesToShow={3}
+        isSmallScreen={isSmallScreen}
+      />
       <hr />
     </div>
   );
