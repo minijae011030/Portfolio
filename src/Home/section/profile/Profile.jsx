@@ -1,10 +1,11 @@
+import { useEffect } from "react";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 import styles from "./styles/profile.module.css";
 
 import profile_img from "../../../utils/image/profile_ian.jpg";
-import { useEffect } from "react";
 
 function Profile({ isSmallScreen }) {
   useEffect(() => {
@@ -46,9 +47,9 @@ function Profile({ isSmallScreen }) {
             isSmallScreen ? styles.small_screen_link : styles.big_screen_link
           }
         >
-          <a href={process.env.REACT_APP_BLOG}>블로그</a>
-          <a href={process.env.REACT_APP_RESUME}>이력서</a>
-          <a href={process.env.REACT_APP_GITHUB}>깃허브</a>
+          <a href={process.env.REACT_APP_BLOG}>BLOG</a>
+          <a href={process.env.REACT_APP_RESUME}>RESUME</a>
+          <a href={process.env.REACT_APP_GITHUB}>GITHUB</a>
         </div>
       </div>
     </div>
