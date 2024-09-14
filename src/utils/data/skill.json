@@ -69,13 +69,5 @@
       "서버에서 MySQL을 설치하고 사용할 수 있습니다."
     ],
     "logo": "logo-ubuntu.png?alt=media&token=12145365-ecd4-477f-b732-9b6da1333963"
-  },
-  {
-    "skill": "Postman",
-    "ability": [
-      "Postman을 통해 백엔드 API의 요청과 응답을 테스트할 수 있습니다.",
-      "워크스페이스를 통해 팀원들과 협업하여 API 개발을 효울적으로 진행할 수 있습니다."
-    ],
-    "logo": "logo-postman.svg?alt=media&token=633598e9-902c-4293-bf49-fe92ddacc542"
   }
 ]
