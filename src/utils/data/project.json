@@ -5,7 +5,7 @@
     "project_duration": "2024.07 - 2024.08 (2개월)",
     "project_composition": "백엔드 및 서버 개발자 1명, 프론트엔드 개발자 1명",
     "project_url": "https://blog.minjae-dev.com",
-    "github_url": "https://github.com/Dong-Ian/front",
+    "github_url": "https://github.com/Dong-Ian/blog-typescript",
     "skills": ["HTML", "CSS", "TypeScript", "React"],
     "main_tasks": [
       "React를 활용하여 개인 블로그 개발 프로젝트의 프론트엔드 전반을 담당",
