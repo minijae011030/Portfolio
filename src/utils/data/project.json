@@ -6,7 +6,7 @@
     "project_composition": "백엔드 및 서버 개발자 1명, 프론트엔드 개발자 1명",
     "project_url": "https://blog.minjae-dev.com",
     "github_url": "https://github.com/Dong-Ian/front",
-    "skills": ["HTML", "CSS", "JavaScript", "React"],
+    "skills": ["HTML", "CSS", "TypeScript", "React"],
     "main_tasks": [
       "React를 활용하여 개인 블로그 개발 프로젝트의 프론트엔드 전반을 담당",
       "ReactQuill 라이브러리를 이용한 포스팅 페이지 제작 및 글 작성 기능 구현",
@@ -43,7 +43,8 @@
       "디바이스 카메라, 갤러리를 통한 사진 및 정보 전송 기능 구현",
       "Figma를 활용한 UI/UX 디자인 및 프론트엔드 개발 전담",
       "백엔드 서버와 AI 서버 관리 및 도메인 연결 담당",
-      "REST API를 이용한 서버와의 데이터 통신 및 에러 처리"
+      "REST API를 이용한 서버와의 데이터 통신 및 에러 처리",
+      "UUID를 이용한 백엔드 로직 설계"
     ],
     "project_image": [
       "petfinity_Login.png?alt=media&token=e878e103-5160-433d-952a-c871b71ff99b",
@@ -55,7 +56,7 @@
       "petfinity_PetList.png?alt=media&token=2f3928f9-4003-42ab-bf6f-4ae9764bb582",
       "petfinity_CheckReservation.png?alt=media&token=ceaf97eb-fc5b-4583-9d73-2958104a3dee"
     ],
-    "project_contribution": "프론트엔드 개발 전담, 서버 관리",
+    "project_contribution": "프론트엔드 개발 전담, 서버 관리, 백엔드 로직 설계",
     "project_problem": "React Native를 처음 사용하여 개발에 어려움이 있었습니다.",
     "project_solution": [
       "Figma를 통해 필요한 화면을 먼저 설계하고, 이를 바탕으로 컴포넌트를 나눠서 단계적으로 개발했습니다.",
