@@ -103,15 +103,19 @@ function Projects({ isSmallScreen }) {
         SlidesToShow={1}
         isSmallScreen={isSmallScreen}
       />
-
       <Project
         project_index={1}
+        SlidesToShow={2}
+        isSmallScreen={isSmallScreen}
+      />
+      <Project
+        project_index={2}
         SlidesToShow={3}
         isSmallScreen={isSmallScreen}
       />
 
       <Project
-        project_index={2}
+        project_index={3}
         SlidesToShow={3}
         isSmallScreen={isSmallScreen}
       />

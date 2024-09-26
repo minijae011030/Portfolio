@@ -33,6 +33,32 @@
     ]
   },
   {
+    "project_name": "Sorting Visualizer",
+    "project_description": "정렬에 대한 시각화 프로그램",
+    "project_duration": "2024.09 (1개월)",
+    "project_composition": "프론트엔드 개발자 1명",
+    "project_url": "https://sorting.minjae-dev.com",
+    "github_url": "https://github.com/minijae011030/sorting-visualizert",
+    "skills": ["HTML", "CSS", "TypeScript", "React"],
+    "main_tasks": [
+      "배열의 크기를 클라이언트가 설정할 수 있도록 설계",
+      "recharts 라이브리를 활용한 각 정렬에 대한 차트 시각화 및 시간 측정",
+      "hljs를 활용한 c언어 코드 하이라이트"
+    ],
+    "project_image": [
+      "sorting_1.png?alt=media&token=6cb19fb6-6fa8-46ca-af42-657cca8cdad0",
+      "sorting_2.png?alt=media&token=a8591244-06ba-4f56-910c-4871bbe89c4a",
+      "sorting_3.png?alt=media&token=7fa25559-4b1b-4363-ae70-404bf6752899"
+    ],
+    "project_contribution": "프론트엔드 개발 전담",
+
+    "project_problem": "재귀적으로 정렬을 수행하는 함수 실행 시 차트 렌더링이 너무 많이 수행되어 정렬 시간이 느려지는 믄제기 있었습니다.",
+    "project_solution": [
+      "재귀 호출마다 배열이 조금만 변경되더라도 즉시 상태를 업데이트해 자주 렌더링이 발생하였습니다.",
+      "따라서 주요한 순간(예: 퀵정렬에서 피벗이 완전히 제자리를 찾았을 때)마다 상태를 업데이트하여 불필요한 업데이트를 줄였습니다."
+    ]
+  },
+  {
     "project_name": "Petfinity",
     "project_description": "반려동물 AI 건강 진단 애플리케이션",
     "project_duration": "2024.03 - 2024.06 (4개월)",
