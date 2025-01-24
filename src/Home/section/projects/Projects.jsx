@@ -9,6 +9,7 @@ function Project({ project_index, SlidesToShow, isSmallScreen }) {
   const project_image = project.project_image;
   const project_skill = project.skills;
   const project_main_task = project.main_tasks;
+  const project_problem = project.project_problem;
   const project_solution = project.project_solution;
 
   return (
@@ -66,7 +67,9 @@ function Project({ project_index, SlidesToShow, isSmallScreen }) {
             return (
               <div className={styles.project_main_task} key={index}>
                 <p>·</p>
-                <p>{task}</p>
+                <p>
+                  <span style={{ fontWeight: "500" }}>{task.t}</span>: {task.d}
+                </p>
               </div>
             );
           })}
@@ -81,7 +84,13 @@ function Project({ project_index, SlidesToShow, isSmallScreen }) {
         }
       >
         <p className={styles.text}>맞닥뜨렸던 문제</p>
-        <p className={styles.problem}>{project.project_problem}</p>
+        {project_problem.map((problem, index) => {
+          return (
+            <p key={index} className={styles.problem}>
+              {problem}
+            </p>
+          );
+        })}
         <p className={styles.text}>해결한 방법</p>
         <div className={styles.solution}>
           {project_solution.map((solution, index) => {
@@ -110,12 +119,6 @@ function Projects({ isSmallScreen }) {
       />
       <Project
         project_index={2}
-        SlidesToShow={3}
-        isSmallScreen={isSmallScreen}
-      />
-
-      <Project
-        project_index={3}
         SlidesToShow={3}
         isSmallScreen={isSmallScreen}
       />
